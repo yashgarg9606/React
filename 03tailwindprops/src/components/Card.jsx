@@ -1,6 +1,6 @@
 import React from 'react'
 
-function card(username) {
+function card({username}) {
     console.log(username);
   return (
      <div className="w-60 flex flex-col rounded-xl bg-black min-h-[19rem] ">
